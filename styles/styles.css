@@ -91,3 +91,21 @@ button {
 .profile-picture {
     width: 300px;
 }
+
+.projects{
+    text-align: center;
+}
+
+.project-header {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
