@@ -1,18 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
+    height: 100vh;
     margin: 0;
-    font-family: sans-serif;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header,
-.footer {
+.footer,
+.hero-section {
     background-color: #1F2937;
     display: flex;
     padding: 10px;
-    color: white;
+    color: #f9faf8;
+}
+
+.body {
+    flex-grow: 1;
 }
 
 .logo {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
     margin-right: auto;
 }
@@ -28,7 +38,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
 }
 
 a:hover {
@@ -39,4 +49,45 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    width: 30%;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-secondary-text, 
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: justify;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    background-color: #3882f6;
+    padding: 10px 20px;
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.profile-picture {
+    width: 300px;
 }
