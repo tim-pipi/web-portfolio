@@ -81,12 +81,13 @@ a:hover {
 
 button {
     border-radius: 20px;
-    border: none;
+    border: 2px solid white;
     background-color: #3882f6;
     padding: 10px 20px;
     color: #f9faf8;
     font-size: 14px;
     font-weight: 700;
+    flex-shrink: 0;
 }
 
 .profile-picture {
@@ -131,4 +132,26 @@ button {
 .author {
     text-align: end;
     font-weight: bold;
+}
+
+.call-to-action {
+    padding: 20px;
+    margin: 0 400px;
+}
+
+.modal {
+    background-color: #3882f6;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-text {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sub-text {
+    color: white;
 }
