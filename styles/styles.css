@@ -10,7 +10,8 @@ body {
 
 .header,
 .footer,
-.hero-section {
+.hero-section,
+.testimonials {
     background-color: #1F2937;
     display: flex;
     padding: 10px;
@@ -108,4 +109,26 @@ button {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.testimonials {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony {
+    width: 400px;
+}
+
+.quotes {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    margin-bottom: 10px;
+}
+
+.author {
+    text-align: end;
+    font-weight: bold;
 }
